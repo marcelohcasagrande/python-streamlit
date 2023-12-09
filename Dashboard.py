@@ -151,9 +151,11 @@ fig_vendas_categorias = px.bar( vendas_categorias,
 
 fig_vendas_categorias.update_layout( showlegend = False, yaxis_title = 'Quantidade de vendas' ) # título do eixo Y.
 
+
     #                           # 
     # Visualizacao no streamlit #
     #                           # 
+
 
 aba1, aba2, aba3 = st.tabs( [ 'Receita', 'Quantidade de Vendas', 'Vendedores' ] ) # criando 3 abas.
 
